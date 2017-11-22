@@ -16,9 +16,9 @@
 ### How to play the game
 1. Upload your code to the Arduino.
 2. Connect the serial monitor to your arduino (use the tools menu or ctrl + shift + M).
-2. Click the button and release it.
-3. Get ready to play as the "get ready" LED sequence plays.
-4. Once the LED's all flash green, press the button as quickly as you can.
+3. Click the button and release it.
+4. Get ready to play as the "get ready" LED sequence plays.
+5. Once the LED's all flash green, press the button as quickly as you can.
 
 
 ### Description

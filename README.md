@@ -11,11 +11,11 @@ If you have a github account I suggest you "fork" this repository so you can kee
 1. [Temperature using the DS18B20](TemperatureDS18B20/README.md)
 2. [A Theremin using an Ultrasonic distance sensor](UltrasonicTheremin/README.md)
 3. [Basic Pixel LED control using FastLED](10xFastLed/README.md)
-
+4. [A simple reaction timer using Pixel LED's](PixelLEDGame/README.md)
 
 
 
 ## Libraries
 
-To use most of the tutorials yuo will be required to install the libraries. Libraries allow you to reuse code in a nicely packages maner.
+To use most of the tutorials you will be required to install the libraries. Libraries allow you to reuse code in a nicely packages maner.
 Installation is simple, you simply select "sketch/include library/add .zip library" from the menu and select the .zip file from the "libraries" folder in this repository.
