@@ -2,7 +2,7 @@
 
 ## How to use this repository
 
-You may either "clone" using git or simply download this repository as a zip, extract and go! all the required libraries, code and details on how to use are contained in this repository. Each tutorial has its own arduino project folder and its own README.md. You will require the [Arduino IDE] (https://www.arduino.cc/en/Main/Software) or you can try the web editor and compiler also listed on this page.
+You may either "clone" using git or simply download this repository as a zip, extract and go! all the required libraries, code and details on how to use are contained in this repository. Each tutorial has its own arduino project folder and its own README.md. You will require the [Arduino IDE](https://www.arduino.cc/en/Main/Software) or you can try the web editor and compiler also listed on this page.
 
 If you have a github account I suggest you "fork" this repository so you can keep track of your own changes.
 
