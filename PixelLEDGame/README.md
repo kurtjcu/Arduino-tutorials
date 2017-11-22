@@ -30,9 +30,14 @@ manageable and easier to read, especially in the main loop. As you can see almos
 There are many things to hack in this program such as colours of LED's, the speeds at which they flash, and the messages that are outputted to the monitor.
 
 Upload the code and play the game and deliberately cause an error by continually holding the button doen when starting the game or letting the game time out after starting it.
+
 Take note of the warning flash.
+
 A really good way to get to understand functions a little better is to copy the "warningFlash()" function and give it a slightly different name i.e. "warningFlashPink()". Make sure you copy the whole function including the closing parenthesis "}". once you have copied and renamed it change the colour of the LED's to pink.
-Upload the code and play the game and deliberately cause an error by continually holding the button doen when starting the game or letting the game time out after starting it again. Did you notice any change? If not have a look abck through the main program to see where the "warningFlash()" function is triggered from and change **one** of these to the name of the new function you created "warningFlashPink()" in our case. Upload and test the changes by triggering the error where you changed the function call to your new function.
+
+Upload the code and play the game and deliberately cause an error by continually holding the button doen when starting the game or letting the game time out after starting it again. Did you notice any change? 
+
+If not have a look abck through the main program to see where the "warningFlash()" function is triggered from and change **one** of these to the name of the new function you created "warningFlashPink()" in our case. Upload and test the changes by triggering the error where you changed the function call to your new function.
 
 
 
