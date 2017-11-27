@@ -1,3 +1,7 @@
+
+
+
+
 #include "FastLED.h"
 
 // How many leds in your strip?
@@ -16,7 +20,11 @@
 CRGB leds[NUM_LEDS];
 
 
-// this section does all the initial setup of our program
+/****************************************************************
+ * 
+ * this section does all the initial setup of our program
+ * 
+ ***************************************************************/
 void setup() { 
   // setup the pin for a button connection
   pinMode(BUTTON_PIN, INPUT_PULLUP);
@@ -29,7 +37,11 @@ void setup() {
 }
 
 
-// this is our main program
+/********************************************
+ * 
+ *  this is our main program
+ * 
+ ********************************************/
 void loop() { 
 
   int buttonPressed = !digitalRead(BUTTON_PIN);
@@ -39,7 +51,8 @@ void loop() {
       // Let the player know a game is about to start
       getReadyFlash();
 
-      //wait for a random amount of time between .5 and 5 seconds
+      // wait for a random amount of time between .5 and 5 seconds.
+      // this random delay is so that the player cannot simply time how long it will take for the start flash to go off.
       delay(random(500, 5000));
 
       // check to see if the person is alreay pressing the button
@@ -84,8 +97,17 @@ void loop() {
   }
 }
 
-//
+/****************************
+ * 
+ *        Functions 
+ * 
+ ****************************/
+
+
+// This function Flashes the first LED red, then green, then blue to let the player know a game is about to start. 
+
 void getReadyFlash(){
+  
   int flashPeriodInMilliseconds = 300;  // this is how long a LED is on or off for
   
   // Turn the Red LED on, then pause
@@ -116,7 +138,10 @@ void getReadyFlash(){
   delay(flashPeriodInMilliseconds);// Wait for flashPeriodInMilliseconds milliseconds
 }
 
+
+
 // This function is called when we want to flash the LED's at the start of the timer
+
 void startTimerFlash(){
   
   for(int k = 0; k < NUM_LEDS; k++){
@@ -131,7 +156,10 @@ void startTimerFlash(){
   FastLED.show();                   // send our colour information to the LED Strip
 }
 
+
+
 // this function is called when we want to show a warning by flashing all the LED's
+
 void warningFlash(){
   
   for (int j = 0; j < 3; j++){
@@ -139,13 +167,13 @@ void warningFlash(){
     for(int k = 0; k < NUM_LEDS; k++){
       leds[k] = CRGB::Red;              // set the colour to red
       FastLED.show();                   // send our colour information to the LED Strip
-      delay(300);                       // Wait for 1000 milliseconds (1 second)
+      delay(300);                       // Wait for 300 milliseconds (0.3 second)
     }
   
     for(int k = 0; k < NUM_LEDS; k++){
       leds[k] = CRGB::Black;              // Turn led off
       FastLED.show();                   // send our colour information to the LED Strip
-      delay(300);                       // Wait for 1000 milliseconds (1 second)
+      delay(300);                       // Wait for 300 milliseconds (0.3 second)
     }
   }
 }
