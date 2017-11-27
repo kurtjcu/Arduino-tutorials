@@ -9,10 +9,10 @@ To get 2 of the HC-05 Blutooth modules working with each other they first need t
 
 Connections:
 Use this connection diagram for setting up the HC-05.
-![AT mode](Setup HC-05 - Schematic.PNG?raw=true)
+[AT mode]("Setup HC-05 - Schematic.PNG"?raw=true)
 
 Use this connection diagram once the HC-05's are setup and you are making a wireless bridge.
-![Wireless bridge](Normal use HC-05 - Schematic.PNG?raw=true)
+[Wireless bridge]("Normal use HC-05 - Schematic.PNG?" raw=true)
 
 The process:
 

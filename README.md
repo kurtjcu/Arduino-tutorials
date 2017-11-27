@@ -12,7 +12,7 @@ If you have a github account I suggest you "fork" this repository so you can kee
 2. [A Theremin using an Ultrasonic distance sensor](UltrasonicTheremin/README.md)
 3. [Basic Pixel LED control using FastLED](10xFastLed/README.md)
 4. [A simple reaction timer using Pixel LED's](PixelLEDGame/README.md)
-5. [Setup communications via Blutooth] (BlutoothPairning/README.md)
+5. [Setup communications via Blutooth](BlutoothPairning/README.md)
 
 
 
