@@ -12,6 +12,7 @@ Use this connection diagram for setting up the HC-05.
 ![AT mode](Setup%20HC-05%20-%20Schematic.PNG?raw=true)
 
 Use this connection diagram once the HC-05's are setup and you are making a wireless bridge.
+**Make note of the missing link between Vcc and the Enable/key pin **
 ![Wireless bridge](Normal%20use%20HC-05%20-%20Schematic.PNG?raw=true)
 
 The process:
